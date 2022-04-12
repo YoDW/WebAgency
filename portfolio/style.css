@@ -1,0 +1,142 @@
+.projetsPortfolio{
+    background-color: rgb(247, 247, 247);
+    margin-bottom: 40px;
+}
+.portfolioContainer{
+    max-width: 1600px;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    margin: auto;
+}
+.portfolioTitle{
+    margin-top:40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.portfolioTitle h2{
+    margin-bottom:35px;
+}
+.portfolioTitle p{
+    margin-top: 40px;
+}
+
+.gallery{
+    text-align: center;
+}
+input[type="radio"] {
+    display:none;
+}
+.radios{
+    text-align: center;
+}
+label{
+    display: inline-flex;
+    justify-content: center;
+    margin: auto;
+    width:150px;
+    background:#cccccc;
+    color:rgb(89, 89, 89);
+    margin-right: -6px;
+    border-radius: 3px;
+    padding:5px 15px;
+    cursor:pointer;
+    transition: all 0.3s;
+  }
+
+  label:hover{
+    background-color: #5dadd3;
+    text-decoration: none;
+    color: #fff;
+  }
+
+  input[type="radio"][id="creative"]:checked ~ .corporate, input[type="radio"][id="creative"]:checked ~ .port {
+    width:0;
+    height:0;
+    padding:0;
+    margin:0;
+    opacity:0;
+  }
+
+  input[type="radio"][id="corporate"]:checked ~ .creative, input[type="radio"][id="corporate"]:checked ~ .port {
+    width:0;
+    height:0;
+    padding:0;
+    margin:0;
+    opacity:0;
+  }
+
+  input[type="radio"][id="port"]:checked ~ .creative, input[type="radio"][id="port"]:checked ~ .corporate {
+    width:0;
+    height:0;
+    padding:0;
+    margin:0;
+    opacity:0;
+  }
+  
+  .portfolioItem{
+    display: inline-flex;
+    flex-direction: row;
+    margin:5px;
+    position: relative;
+    align-items: flex-end;
+    height:250px;
+    transition:all 1s;
+    overflow: hidden;
+    text-align: left;
+  }
+.portfolioItem img{
+    width:350px;
+    height: 230px;
+}
+.itemTxt{
+    position:absolute;
+    width: 100%;
+    background-color: rgb(73, 73, 73, 0.5);
+    opacity: 0;
+    transition: all 0.4s ease-out;
+}
+.portfolioItem .itemTxt:focus,
+.portfolioItem .itemTxt:active,
+.portfolioItem .itemTxt:hover{
+    opacity: 1;
+    transform: translateY(20%);
+}
+.itemTxt h4{
+    margin-left: 15px;
+}
+.itemTxt p{
+    margin-left: 15px;
+    margin-bottom: 40px;
+
+}
+.eye img{
+    color: #fff;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-top:-25px;
+    margin-left: 280px;
+    background-color: #aaa;
+    padding:10px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+}
+.eye img:hover{
+    background-color: #5dadd3;
+}
+
+@media screen and (max-width:576px){
+    label{
+        font-size: 18px;
+        padding:10px 100px;
+    }
+    .eye{
+        margin-left: -30px;
+    }
+    .portfolioTitle p{
+        padding: 10px;
+        line-height: 30px;
+    }
+}
+

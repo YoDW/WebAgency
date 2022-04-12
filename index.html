@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/picto 2.png">
+    <title>WEBAGENCY</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet"> 
+
+
+
+</head>
+<body id="home">
+
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div id="logo-s">
+                <img src="images/picto 2.png" alt="logo">
+                <h1>WEBAGENCY</h1>
+            </div>
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div id="logo">
+                <img src="images/picto 2.png" alt="logo">
+                <h1>WEBAGENCY</h1>
+            </div>
+        </div>
+    </nav>
+
+    <header class="headerContainer">
+        <div class="texte">
+            <div id="h1-p">
+                <h1><span>WEBAGENCY :</span> L'AGENCE DE TOUS VOS PROJETS !</h1>
+                <p>Vous avez un projet web ? La WebAgency  vous aide à le réaliser.</p>
+                <br>
+            </div>
+            <div id="btnInfo" >
+                <a href="#services">Plus d'infos</a>
+            </div>
+        </div>
+        <div class="slider">
+            <input type="radio" name="slide" id="slide_1" class="toogle_slide" checked>
+            <div class="slide">
+                <img src="images/photo_slide_1 3.png" alt="">
+                <label for="slide_2" class="left"><</label>
+                <label for="slide_2" class="right">></label>
+            </div>
+
+            <input type="radio" name="slide" id="slide_2" class="toogle_slide">
+            <div class="slide">
+                <img src="images/photo_slide_1 2.png" alt="">
+                <label for="slide_1" class="left"><</label>
+                <label for="slide_1" class="right">></label>
+            </div>
+        </div>
+
+    </header>
+
+    <section id="services">
+        <div class="txt">
+            <h2>Nos services</h2>
+                    <div class="divider"></div>
+                    <div class="circle"></div>
+            <p>Depuis plusieurs années, la WebAgency vous accompagne dans la définition et la compréhension de vos projets,
+                de la conception graphique et technique au web-marketing
+            </p>
+        </div>    
+        <div id="services2">
+            <div id="ordi">
+                <img src="images/photo_services 3.png" alt="ordinateur">
+            </div>
+            <div class="presentation">
+                <div class="services2-item">
+                    <div class="icon">
+                        <img src="svgs/chart-line.svg" alt="">
+                    </div>
+                    <div class="circle2"></div>
+                    <div>
+                        <h3>UX Design</h3>
+                        <p>Plateformes, Web-applications, Sites transactionnels, E-commerce & Marchants, sites vitrines et médias conçus et pensés pour une utilisation optimale.</p>
+                    </div>
+                </div>
+
+                <div class="services2-item">
+                    <div class="icon">
+                        <img src="svgs/cubes.svg" alt="">
+                    </div>
+                    <div class="circle2"></div>
+
+                    <div>
+                        <h3>UI Design</h3>
+                        <p>Ergonomie et facilité de navigation des interfaces pour sites vitrines, E-commerce, plateformes, Web applications et Sites média...</p>
+                    </div>
+                </div>
+
+                <div class="services2-item">
+                    <div class="icon">
+                        <img src="svgs/chart-pie.svg" alt="">
+                    </div>
+                    <div class="circle2"></div>
+                    <div>
+                        <h3>SEO - Search Engine Optimization</h3>
+                        <p>Où l'art d'optimiser la visibilité et le positionnement de sites web par les moteurs de recherche.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projetsPortfolio" id="portfolio">
+        <div class="portfolioContainer">
+            <div class="portfolioTitle">
+                <h2>NOS PROJETS</h2>
+                <div class="divider"></div>
+                <div class="circle"></div>
+                <p>Voici quelques projets qui ne sont pas le fait du hasard mais le fruit de notre imagination !
+                    Nous donnons vie à vos idées</p>
+            </div>
+
+            <div class="gallery"> 
+
+                <input type="radio" id="creative" name="category" />
+                <label for="creative" class="labelGallery">Créatives</label>
+                
+                <input type="radio" id="corporate" name="category"/>
+                <label for="corporate" class="labelGallery">Corporate</label>
+                
+                <input type="radio" id="port" name="category"/>
+                <label for="port" class="labelGallery">Portfolio</label>
+
+                <input type="radio" id="reset" name="category"/>
+                <label for="reset" class="labelGallery">Tous les Travaux</label>
+                <br>
+
+                <div class="portfolioItem corporate">
+                    <div class="itemTxt">
+                        <a href="images/photo 16.png" target="_blank"class="eye">
+                            <img src="svgs/eye.svg" alt="">
+                        </a>
+                        <h4>Opti'Kids</h4>
+                        <p>Site marchand de lunettes</p>
+                    </div>
+                    <img src="images/photo 16.png" alt="Opti'Kids">    
+                </div>
+
+                <div class="portfolioItem creative">
+                    <div class="itemTxt">
+                        <a href="images/photo 2.png" target="_blank"class="eye">
+                            <img src="svgs/eye.svg" alt="">
+                        </a>
+                        <h4>Design</h4>
+                        <p>Création</p>
+                    </div>
+                    <img src="images/photo 2.png" alt="Creation 1">     
+                </div>
+
+                <div class="portfolioItem creative">
+                    <div class="itemTxt">
+                        <a href="images/photo 3.png" target="_blank"class="eye">
+                            <img src="svgs/eye.svg" alt="">
+                        </a>
+                        <h4>Design</h4>
+                        <p>Paysage</p>
+                    </div>
+                    <img src="images/photo 3.png" alt="Paysage">
+                </div>
+
+                <div class="portfolioItem corporate">
+                    <div class="itemTxt">
+                        <a href="images/photo 4.png" target="_blank"class="eye">
+                            <img src="svgs/eye.svg" alt="">
+                        </a>
+                        <h4>Visuels</h4>
+                        <p>Shopping bag</p>
+                    </div>
+                    <img src="images/photo 4.png" alt="Sacs marque">    
+                </div>
+
+                <div class="portfolioItem port">
+                    <div class="itemTxt">
+                        <a href="images/photo 5.png" target="_blank"class="eye">
+                            <img src="svgs/eye.svg" alt="">
+                        </a>
+                        <h4>Bloc note</h4>
+                        <p>Technique</p>
+                    </div>
+                    <img src="images/photo 5.png" alt="Carnet">
+                </div>
+
+                <div class="portfolioItem corporate">
+                    <div class="itemTxt">
+                        <a href="images/photo 6.png" target="_blank"class="eye">
+                            <img src="svgs/eye.svg" alt="Logo Pompadour">
+                        </a>
+                        <h4>Pompadour</h4>
+                        <p>Logo de la marque</p>
+                    </div>
+                    <img src="images/photo 6.png" alt="Logo Pompadour">
+                </div>
+
+                <div class="portfolioItem creative">
+                    <div class="itemTxt">
+                        <a href="images/photo 7.png" target="_blank"class="eye">
+                            <img src="svgs/eye.svg" alt="">
+                        </a>
+                        <h4>Lapin</h4>
+                        <p>Dessin animé</p>
+                    </div>
+                    <img src="images/photo 7.png" alt="lapin">
+                </div>
+
+                <div class="portfolioItem port">
+                    <div class="itemTxt">
+                        <a href="images/photo 17.png" target="_blank"class="eye">
+                            <img src="svgs/eye.svg" alt="">
+                        </a>
+                        <h4>Bureau</h4>
+                        <p>Kit bureau</p>
+                    </div>
+                    <img src="images/photo 17.png" alt="bureau">
+                </div> 
+            </div>  
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2890.0729230549746!2d1.4001278154955097!3d43.58419737912377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12aeba53a739cc1d%3A0xd924d2969bea1bdb!2s150%20Rue%20Nicolas%20Louis%20Vauquelin%2C%2031100%20Toulouse!5e0!3m2!1sfr!2sfr!4v1649253686955!5m2!1sfr!2sfr" width="100%" height="650" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
+        </div>
+<!--    <div class="blue"></div>
+-->     <div class="form-box">
+            <div class="contactTxt">
+                <h3>Contact Info</h3>
+                <h4>WebAgency SAS</h4>
+                <p>150 rue Nicolas Louis Vauquelin<br>31100 Toulouse</p>
+                <p>Tél. : 05 34 61 26 23</p>
+            </div>
+
+
+            <form action="" method="post" id="contact-form">
+                <div>
+                    <label for="name"></label>
+                    <input type="text" pattern="^[( )a-zA-Z]+$" id="name" class="form-control" name="user_name" placeholder="Nom" required>                    
+                </div>
+                <div>
+                    <label for="nickname"></label>
+                    <input type="text" pattern="^[( )a-zA-Z]+$" id="nickname" class="form-control" name="user_nickname" placeholder="Prénom" required>                    
+                </div>
+                <div>
+                    <label for="sujet"></label>
+                    <input type="text" id="sujet" class="form-control" name="user_sujet" placeholder="Sujet" required>
+                </div>
+                <div>
+                    <label for="msg"></label>
+                    <textarea id="msg" class="form-control_text" placeholder="Message" required></textarea>
+                </div>
+                <input type="submit" class="btnSend" value="Envoyer le message">
+            </form>
+        </div>
+
+
+    </section>
+
+    <footer>
+        <div class="text">
+                    Tous droits réservés WebAgency - Design : Némo
+        </div>
+    </footer>
+
+
+
+
+</body>
+</html>
